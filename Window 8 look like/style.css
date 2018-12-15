@@ -1,0 +1,287 @@
+<style>
+body, html 
+{
+    height: 100%;
+    font-family: Algerian;
+      overflow-y:hidden;
+      overflow-x:hidden;
+
+
+}
+
+.bg 
+{ 
+    background: url("pics/background.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.page-header
+{
+	padding-top: :150px;
+}
+.divclor {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
+}
+.skyblue
+{
+  	background-color: #0099ff;
+  	font-family: Segoe UI;
+}
+.head
+{
+	font-size: 30px;
+}
+.paddingtop
+{
+	padding-top: 5px;
+}
+.paddingbottom
+{
+	padding-bottom: 15px;
+}
+.paddingleft
+{
+
+	padding-left: .25em;
+}
+.paddingright
+{
+	padding-right: .5em;
+}
+.paddingtopremove
+{
+	margin-top: 0px;
+}
+.paddingbottomremove
+{
+	margin-bottom: 0px;
+}
+.paddingleftremove
+{
+	padding-left: 0px;
+}
+.paddingrightremove
+{
+	padding-right: 0px;
+}
+.zindex
+{
+	 z-index: -10;
+}
+.skill{
+    width:100%;
+    height: 180px;
+
+}
+.marginleftremove
+{
+	margin-left: 0px;
+}
+.marginrightremove
+{
+	margin-right: 0px;
+}
+.pointer
+ {
+ 	cursor: pointer;
+ }
+ #_3d:hover
+ {
+ 	    box-shadow: 0 10px 26px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+ 	   transition: .5s ease;  
+ }
+#_3d
+{
+	 box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0),0 0px 0px 0 rgba(0,0,0,0) !important;
+ 	   transition: .5s ease;  
+}
+ #tip:hover
+ {
+ 	    box-shadow: 0 10px 26px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+ 	   transition: .5s ease;  
+ }
+
+#tip {
+
+  cursor: pointer;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.0),0 0px 0px 0 rgba(0,0,0,0) !important;
+ 	   transition: .5s ease;  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+#tip:hover {
+	
+	cursor: pointer;
+
+   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+ 	   transition: .4s ease;  
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-small
+{
+	height: 100%;
+	width: 100%;
+}
+.wrapper11
+{
+	display:grid;
+	grid-template-columns: 4fr;
+	grid-gap: .5em;
+	padding: .25em;
+
+}
+.wrapper11 > div
+{
+	background: #9933CC;
+
+	padding :1em;
+}
+.wrapper12
+{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: .5em;
+	padding:.25em;
+}
+.box12
+{
+	background: #26a69a;
+
+	padding :1em;
+}
+.wrapper1212
+{
+display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: .5em;
+
+
+}
+.mainwrapper
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.wrapper12121
+{
+display: grid;
+	grid-template-columns: 4fr;
+	grid-template-rows: 4fr;
+	grid-gap: .5em;
+	
+
+}
+.wrapper1234
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 2.05fr;
+
+	grid-gap: .5em;
+}
+.box1234
+{
+	background:#f06292 ;
+
+	padding :1em;
+}
+.box1212
+{
+background:#f06292 ;
+
+	padding :1em;
+}
+#row1
+{
+	
+}
+#row2
+{
+	
+}
+#row3
+{
+	
+}
+.bg_about
+{
+	background-color: #e9ecef;
+}
+.headingdiv
+{
+	    padding: 4rem 1rem;
+    
+    background: #9933CC;
+    border-radius: 0rem;
+    cursor: pointer;
+}
+.fix-headingdiv
+{
+	position: fixed;
+   padding: 4rem rem;
+    background: #eee;
+    border-radius: 0rem;
+    cursor: pointer;
+    transition: width 0.2s;
+}
+.left
+{
+	text-align: left;
+	transition: width .8s ease;
+}
+.center
+{
+text-align: center;
+ transition: width .8s ease;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+</style>
